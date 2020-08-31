@@ -2,16 +2,16 @@
 class Hoodieaf < Formula
   desc "Utility to you know if you need a hoodie or not."
   homepage "https://github.com/chayev/hoodieaf"
-  version "0.1.0"
+  version "0.2.0"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/chayev/hoodieaf/releases/download/v0.1.0/hoodieaf-v0.1.0-macos-amd64.tar.gz"
-    sha256 "a253e09b340f4a89e4f1251635b6030555b620b88359dce6a0d8b4f1baa51230"
+    url "https://github.com/chayev/hoodieaf/releases/download/v0.2.0/hoodieaf-v0.2.0-macos-amd64.tar.gz"
+    sha256 "3cf2d99969dfe56c4fd07092399fb292d97e791624f3dfc849c69c5fe1bb212c"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/chayev/hoodieaf/releases/download/v0.1.0/hoodieaf-v0.1.0-linux-amd64.tar.gz"
-      sha256 "32f5e963e396b262058fb7bc335548bf276e1fa69a2143b9819054d6a4cdb100"
+      url "https://github.com/chayev/hoodieaf/releases/download/v0.2.0/hoodieaf-v0.2.0-linux-amd64.tar.gz"
+      sha256 "8edf64fe897fad738ec6df1c8f65576cdbdcc45cbf930ba9f20de9bad87d05f2"
     end
   end
 
