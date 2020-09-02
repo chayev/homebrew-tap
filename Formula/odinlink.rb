@@ -2,16 +2,16 @@
 class Odinlink < Formula
   desc "Utility for OneLink API."
   homepage "https://github.com/chayev/odinlink"
-  version "0.1.1"
+  version "0.2.0"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/chayev/odinlink/releases/download/v0.1.1/odinlink-v0.1.1-macos-amd64.tar.gz"
-    sha256 "b14e82b6b169cabf62e8db36a93028e313aea3b9ee47873b219aa850e0c8e716"
+    url "https://github.com/chayev/odinlink/releases/download/v0.2.0/odinlink-v0.2.0-macos-amd64.tar.gz"
+    sha256 "951a7d19670c8f50337f6aae75db06b768afa20cc670ec67e1089904883cc267"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/chayev/odinlink/releases/download/v0.1.1/odinlink-v0.1.1-linux-amd64.tar.gz"
-      sha256 "640f8e66072538b2ee3d484e4346ae4187bd5b180af76ef74c894b361e271876"
+      url "https://github.com/chayev/odinlink/releases/download/v0.2.0/odinlink-v0.2.0-linux-amd64.tar.gz"
+      sha256 "0c7b202dbed1572fdf3397d0c79135686aba6e2cb679de11b5bc8c31ed84bf99"
     end
   end
 
