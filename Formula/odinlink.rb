@@ -7,11 +7,11 @@ class Odinlink < Formula
 
   if OS.mac?
     url "https://github.com/chayev/odinlink/releases/download/v0.2.1/odinlink-v0.2.1-macos-amd64.tar.gz"
-    sha256 "54552ba9261648fbe0269c3bb9707257e2e99a9e0b39123fdc6248de32394ad6"
+    sha256 "da88ad7231b6b11f2b8334e78d61df9ce8ac98479a44424f21dbb84dbfb341bd"
   elsif OS.linux?
     if Hardware::CPU.intel?
       url "https://github.com/chayev/odinlink/releases/download/v0.2.1/odinlink-v0.2.1-linux-amd64.tar.gz"
-      sha256 "7341641d55a8c6dd197b632d55ef0f748d4c0e77f2a5689bf64261f4934b0c69"
+      sha256 "0b73d9dbb86b03599b8462cfe067c97fe66e6768547fc6196273e285d1e5ccc9"
     end
   end
 
