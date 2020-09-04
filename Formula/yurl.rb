@@ -7,11 +7,11 @@ class Yurl < Formula
 
   if OS.mac?
     url "https://github.com/chayev/yurl/releases/download/v0.3.2/yurl-v0.3.2-macos-amd64.tar.gz"
-    sha256 "bafd3d6bc258a36d95f85221d4293912f1f109459f75a9efc8ca2638515329a2"
+    sha256 "15bfd77466a58ace092da783fdfa075b54e0cc614fcc2d2ffafa3d427f712a41"
   elsif OS.linux?
     if Hardware::CPU.intel?
       url "https://github.com/chayev/yurl/releases/download/v0.3.2/yurl-v0.3.2-linux-amd64.tar.gz"
-      sha256 "aef7fbacf0617defe903c983306e2eb70059e636d437eb93e2e25a9ab810f711"
+      sha256 "4d66ae608e38d5c3ac48e501b4f50e991f5e3709d81561011540ea8885310fff"
     end
   end
 
