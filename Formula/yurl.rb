@@ -2,16 +2,16 @@
 class Yurl < Formula
   desc "Universal Links / AASA File Validator."
   homepage "https://github.com/chayev/yurl"
-  version "0.4.0"
+  version "0.5.0"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/chayev/yurl/releases/download/v0.4.0/yurl-v0.4.0-macos-amd64.tar.gz"
-    sha256 "0b5b3a993adde8d9c44189bfef40dcf2ad8911a9e72b814b032b537f29b4b7f4"
+    url "https://github.com/chayev/yurl/releases/download/v0.5.0/yurl-v0.5.0-macos-amd64.tar.gz"
+    sha256 "83fe702a8449050abb38bc5e235276bb23c249cb421c0c86debe91091c4cbc22"
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/chayev/yurl/releases/download/v0.4.0/yurl-v0.4.0-linux-amd64.tar.gz"
-    sha256 "34b7715aec65412b8582d8df98ef6a27c20720554e7be0bab3658d031a1c9902"
+    url "https://github.com/chayev/yurl/releases/download/v0.5.0/yurl-v0.5.0-linux-amd64.tar.gz"
+    sha256 "7bbd30c1b5615929778860a1d850d6fd5eb41689239aefa448c1381d3414ccae"
   end
 
   def install
