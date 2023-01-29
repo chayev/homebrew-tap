@@ -5,11 +5,11 @@
 class Yurl < Formula
   desc "Universal Links / AASA File Validator."
   homepage "https://github.com/chayev/yurl"
-  version "0.7.1"
+  version "0.7.2"
 
   on_macos do
-    url "https://github.com/chayev/yurl/releases/download/v0.7.1/yurl-v0.7.1-macos-amd64.tar.gz"
-    sha256 "9c4bab9f6735be7a5eb4c083e9eff94fd7cc71c98e699ee97cfd7faa1fe1c0ed"
+    url "https://github.com/chayev/yurl/releases/download/v0.7.2/yurl-v0.7.2-macos-amd64.tar.gz"
+    sha256 "edf9eb2d3d0dca9913a880f785506492e2b0953f4580c7c692146f7013d0962a"
 
     def install
       bin.install "yurl"
@@ -28,8 +28,8 @@ class Yurl < Formula
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/chayev/yurl/releases/download/v0.7.1/yurl-v0.7.1-linux-amd64.tar.gz"
-      sha256 "57246c01c3890e74e0491632fd51e42f00efbbe9c33aa83842be221dc2549583"
+      url "https://github.com/chayev/yurl/releases/download/v0.7.2/yurl-v0.7.2-linux-amd64.tar.gz"
+      sha256 "9532cbae6364c83629db66bf03b21b2cfc132245678e7ee8291008a479c58153"
 
       def install
         bin.install "yurl"
